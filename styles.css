@@ -1,0 +1,55 @@
+/* Colours */
+:root {
+  --teal: #35e2c3;
+  --purple: #7f73ff;
+  --pink: #ff83c3;
+  --yellow: #ffe552;
+}
+
+/* text */
+h1 {
+  font-family: "Ribeye Marrow", cursive;
+  color: var(--purple);
+  font-size: 65px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Sofia", cursive;
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+p {
+  margin: 5px;
+  text-align: center;
+}
+
+a {
+  color: var(--purple);
+}
+
+/* Page layout */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* image */
+.moonManImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+img {
+  height: 60vh;
+  margin: 0 auto;
+}
